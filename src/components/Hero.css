@@ -1,0 +1,19 @@
+.hero {
+    background-image: url("/src/components/images/complejo.jpg");
+    background-position: center;
+    min-height: 400px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Texto blanco para contraste con la imagen */
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .hero .lead {
+    font-size: 1.5rem;
+  }

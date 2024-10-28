@@ -1,0 +1,14 @@
+.card {
+    border: none; /* Sin bordes para un diseño limpio */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Sombra sutil */
+    transition: transform 0.2s; /* Transición suave al pasar el ratón */
+  }
+  
+  .card:hover {
+    transform: translateY(-0.5rem); /* Efecto hover */
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
